@@ -1,12 +1,12 @@
 # Building a Complete NCERT AI Tutor: From Local Vicuna-7B to Scalable Educational Assistant
 
-## 🎯 Project Overview
+## Project Overview
 
 I've built a comprehensive AI-powered educational assistant that transforms static NCERT textbooks into an intelligent, conversational tutor for Class 6 students. This project demonstrates the complete journey from PDF content extraction to deploying a local Vicuna-7B model with advanced scalability features.
 
 **Key Achievement**: A production-ready educational AI that runs entirely offline, handles concurrent users, and provides accurate, contextual answers from NCERT curriculum content.
 
-## 🏗️ System Architecture
+## System Architecture
 
 ### High-Level Architecture Diagram
 
@@ -55,7 +55,7 @@ I've built a comprehensive AI-powered educational assistant that transforms stat
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## 🚀 What's Been Accomplished
+## What's Been Accomplished
 
 ### 1. **Core AI Implementation**
 
@@ -131,7 +131,7 @@ class ModelPool:
 - **Features**: Real-time chat, voice controls, chapter selection
 - **UX**: Teacher avatar with animations, typing indicators
 
-## 🔧 Technical Implementation Details
+## Technical Implementation Details
 
 ### **Backend Architecture (FastAPI)**
 
@@ -202,7 +202,7 @@ class ChatApp {
 - **Visual Feedback**: Typing indicators, status updates
 - **Mobile Responsive**: Touch-friendly interface
 
-## 📊 Performance Metrics & Testing
+## Performance Metrics & Testing
 
 ### **Concurrent User Testing**
 ```python
@@ -212,10 +212,10 @@ async def test_concurrent_users(num_users=5):
     # Measures response times and success rates
     
 # Results:
-# ✅ 8+ concurrent users supported
-# ✅ Average response time: 3.2 seconds
-# ✅ 99.5% success rate under load
-# ✅ No memory leaks after 100+ requests
+# 8+ concurrent users supported
+# Average response time: 3.2 seconds
+# 99.5% success rate under load
+# No memory leaks after 100+ requests
 ```
 
 ### **Model Performance Comparison**
@@ -230,7 +230,7 @@ async def test_concurrent_users(num_users=5):
 - **Recommended**: 8GB RAM, 4-core CPU (AI mode)
 - **Optimal**: 16GB RAM, GPU with 6GB+ VRAM
 
-## 🛠️ ML/AI Technologies Used
+## ML/AI Technologies Used
 
 ### **Core AI Stack**
 1. **Vicuna-7B Model**: LLaMA-based conversational AI
@@ -252,7 +252,7 @@ async def test_concurrent_users(num_users=5):
 3. **NumPy**: Numerical computing
 4. **Pydantic**: Data validation and serialization
 
-## 🎯 Key Features Implemented
+## Key Features Implemented
 
 ### **1. Adaptive Intelligence System**
 ```python
@@ -285,7 +285,7 @@ def detect_available_capabilities():
 - **Configuration**: Environment-based settings
 - **Security**: Input validation and sanitization
 
-## 🚀 Future Development Plans
+## Future Development Plans
 
 ### **Phase 1: Enhanced AI Capabilities (Next 2-3 months)**
 
@@ -381,7 +381,7 @@ class LearningAnalytics:
 - **Personalized Content**: Custom-generated educational materials
 - **Predictive Analytics**: Early intervention for struggling students
 
-## 🏗️ Detailed Architecture Diagrams
+## Detailed Architecture Diagrams
 
 ### **Current System Architecture**
 
@@ -491,7 +491,7 @@ class LearningAnalytics:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## 📈 Performance Optimization Strategies
+## Performance Optimization Strategies
 
 ### **Current Optimizations**
 1. **Model Quantization**: 75% memory reduction with minimal accuracy loss
@@ -507,7 +507,7 @@ class LearningAnalytics:
 4. **GPU Acceleration**: CUDA optimization for inference
 5. **Batch Processing**: Group similar requests for efficiency
 
-## 🔒 Security & Privacy Considerations
+## Security & Privacy Considerations
 
 ### **Current Security Measures**
 - **Input Validation**: Sanitize all user inputs
@@ -523,7 +523,7 @@ class LearningAnalytics:
 - **Audit Logging**: Comprehensive activity tracking
 - **Privacy Controls**: GDPR compliance and data protection
 
-## 📊 Success Metrics & KPIs
+## Success Metrics & KPIs
 
 ### **Technical Metrics**
 - **Response Time**: < 5 seconds for 95% of queries
@@ -538,7 +538,7 @@ class LearningAnalytics:
 - **Content Coverage**: Questions answered across all chapters
 - **User Satisfaction**: Feedback ratings and NPS scores
 
-## 🎯 Conclusion
+## Conclusion
 
 This NCERT AI Tutor project represents a complete end-to-end implementation of modern AI in education. From local model deployment to scalable architecture, it demonstrates how to build production-ready educational AI systems that are:
 
